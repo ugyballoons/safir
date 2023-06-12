@@ -8,7 +8,7 @@ Using a single HTTPX_ client improves performance by reusing connections.
 Setting up the httpx.AsyncClient
 ================================
 
-The ``httpx.AsyncClient`` will be dyanmically created during application startup.
+The ``httpx.AsyncClient`` will be dynamically created during application startup.
 Nothing further is needed apart from importing the dependency.
 However, it must be closed during application shutdown or a warning will be generated.
 
